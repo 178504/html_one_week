@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>テーブル構造</title>
+  <h1>簡単なテーブルサンプル</h1>
+  <table border="1">
+    <tr>
+      <th>名前</th><th>性別</th><th>年齢</th><th>住所</th>
+    </tr>
+    <tr>
+      <td>山田太郎</td><td>男</td><td>18</td><td>東京都</td>
+    </tr>
+    <tr>
+      <td>佐藤花子</td><td>女</td><td>16</td><td>大阪府</td>
+    </tr>
+    <td>鈴木次郎</td><td>男</td><td>17</td><td>愛知県</td>
+  </table>
+  <h1>ポケモン</h1>
+  <table border="2">
+    <tr>
+      <th>名前</th><th>タイプ</th><th>弱点</th>
+    </tr>
+    <tr>
+      <td>ピカチュウ</td><td>でんき</td><td>じめん</td>
+    </tr>
+    <tr>
+      <td>フシギダネ</td><td>くさ・どく</td><td>ほのお・ひこう・じめん・エスパー</td>
+    </tr>
+      <tr>
+        <td>ヒトカゲ</td><td>ほのお</td><td>みず・いわ・じめん</td>
+      </tr>
+      <t>
+        <td>ゼニガメ</td><td>みず</td><td>でんき・くさ</td>
+    </tr>
+  </table>
+  <h1>水平テーブル結合</h1>
+  <!-- 水平方向のテーブル結合 -->
+  <table border="1">
+    <tr>
+      <th colspan="3">セルの結合</th>
+    </tr>
+    <tr>
+      <td>セル</td><td>セル</td><td>セル</td>
+    </tr>
+    <tr>
+      <td>セル</td><td>セル</td><td>セル</td>
+    </tr>
+    <tr>
+      <td>セル</td><td>セル</td><td>セル</td>
+    </tr>
+  </table>
+  <h1>垂直なテーブル</h1>
+  <!-- 垂直方向のテーブル結合 -->
+  <table border="3">
+    <tr>
+      <th rowspan="3">セル結合</th>
+      <td>セル</td><td>セル</td><td>セル</td>
+    </tr>
+    <tr>
+      <td>セル</td><td>セル</td><td>セル</td>
+    </tr>
+    <tr>
+      <td>セル</td><td>セル</td><td>セル</td>
+    </tr>
+  </table>
+  <h1>複雑なテーブル</h1>
+  <h1>垂直・水平方向のテーブル結合</h1>
+  <table border="1">
+    <tr>
+      <th colspan="3">水平方向</th>
+      <td>セル</td>
+    </tr>
+    <tr>
+      <td rowspan="2">垂直方向</td>
+      <td colspan="2" rowspan="2">水平・垂直方向の結合</td>
+      <td>セル</td>
+    </tr>
+    <tr>
+      <td>セル</td>
+    </tr>
+    <tr>
+      <td>セル</td><td>セル</td><td>セル</td><td>セル</td>
+    </tr>
+  </table>
+  <h1>趣味と特技</h1>
+  <table border="1">
+    <tr>
+      <th>名前</th><th>趣味</th><th>特技</th>
+    </tr>
+    <tr>
+      <td>山田太郎</td><td rowspan="2">スポーツ鑑賞</td><td>カラオケ</td>
+    </tr>
+    <tr>
+      <td>佐藤花子</td><td>書道</td>
+    </tr>
+    <td>鈴木次郎</td><td colspan="2">ゲーム</td>
+  </table>
+</head>
+<body>
+</body>
+</html>
