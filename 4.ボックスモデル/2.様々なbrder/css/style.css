@@ -1,0 +1,15 @@
+.css1{
+  border: 5px solid #f00;
+}
+.css2{
+  border: double 5px #f00;
+}
+.css3{
+  border: 5px dashed #f00;
+}
+.css4{
+  border: 5px dotted #f00;
+}
+.css5{
+  border-left: 5px solid #f00;
+}
