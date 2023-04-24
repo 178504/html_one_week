@@ -1,0 +1,23 @@
+table{
+  border: 1px hidden black;
+  border-collapse: collapse;
+}
+h1{
+  color: #f00;
+}
+h2{
+  color: #00f;
+}
+h3
+{
+  color: #0f0;
+}
+h4{
+  color: #808080;
+}
+h5{
+  color: #ff00ff;
+}
+h6{
+  color: #00ffff;
+}
