@@ -1,0 +1,30 @@
+table{
+  border: solid 1px #000;
+  border-collapse: collapse;
+}
+th{
+  background-color: #ccc;
+}
+td{
+  text-align: center;
+  width: 2em;
+  font-weight:bold;
+}
+.css1{
+  color: #00f;
+}
+.css2{
+  color: #f00;
+}
+.css3{
+  color: #00f;
+}
+.css4{
+  color: #f00;
+}
+.hol{
+  color: #f00;
+}
+.next{
+  color: #808080;
+}

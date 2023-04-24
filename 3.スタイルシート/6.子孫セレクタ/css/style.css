@@ -1,0 +1,40 @@
+p img{
+  border: 2px #f00 solid;
+}
+
+#weekday{
+  color: #000;
+}
+#saturday{
+  color: #00f;
+}
+#sunday{
+  color: #f00;
+}
+
+#css1{
+  font-style: italic;
+}
+#css2{
+  text-decoration: underline;
+}
+#css3{
+  text-decoration: underline;
+}
+#css4{
+  font-style: italic;
+}
+#css5{
+  text-decoration: line-through;
+}
+table{
+  border-collapse: collapse;
+  border: solid #000 1px;
+}
+th{
+  text-align: center;
+}
+td{
+  text-align: center;
+  width: 4em;
+}

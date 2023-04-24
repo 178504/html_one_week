@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>子孫セレクタ</h1>
+  <p>p要素中にimg要素がある場合</p>
+  <p><img src="img/flower.jpg"></p>
+  <p>p要素に中にimg要素がない場合</p>
+  <img src="img/flower.jpg">
+  <h1>1週間の曜日</h1>
+  <ul>
+    <li id="weekday">月曜日</li>
+    <li id="weekday">火曜日</li>
+    <li id="weekday">水曜日</li>
+    <li id="weekday">木曜日</li>
+    <li id="weekday">金曜日</li>
+    <li id="saturday">土曜日</li>
+    <li id="sunday">日曜日</li>
+  </ul>
+  <h1>国名</h1>
+  <ul>
+    <li id="css1">Japan</li>
+    <li id="css1">USA</li>
+    <li id="css1">China</li>
+  </ul>
+  <hr>
+  <h1>県名</h1>
+  <ol>
+    <li id="css2">青森</li>
+    <li id="css2">群馬</li>
+    <li id="css2">高知</li>
+  </ol>
+  <p id="css3">ABCDEFG</p>
+  <p id="css4">HIJKLMN</p>
+  <p id="css5">OPQRSTU</p>
+  <h1>シフト</h1>
+  <table border="1">
+    <tr>
+      <th>時間</th><th>月</th><th>火</th><th>水</th><th>木</th><th>金</th>
+    </tr>
+    <tr>
+      <th>9:30~12:30</th><td>山田</td><td>佐藤</td><td>後藤</td><td>太田</td><td>国分</td>
+    </tr>
+    <tr>
+      <th>12:30~13:30</th><th colspan="5">昼休み</th>
+    </tr>
+    <tr>
+      <th>13:30~16:30</th><td rowspan="2">吉村</td><td>細川</td><td>本多</td><td>藤井</td><td>河野</td>
+    </tr>
+    <tr>
+      <th>16:30~19:30</th><td>金田</td><td>藤堂</td><td colspan="2">伊藤</td>
+    </tr>
+  </table>
+</body>
+</html>
