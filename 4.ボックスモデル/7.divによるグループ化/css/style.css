@@ -1,0 +1,47 @@
+#css1{
+  border: 5px solid #f00;
+  background-color: #fff;
+  text-align: left;
+  font-style: normal;
+}
+
+.css2{
+  border: 5px solid #f00;
+  text-align: center;
+  background-color: #808080;
+  font-style: italic;
+}
+
+.css3{
+  border: 5px solid #f00;
+  text-align: right;
+  text-decoration: underline;
+  background-color: #000;
+  color: #fff;
+}
+span{
+  text-decoration: underline;
+  color: #f00;
+  font-weight: bold;
+  font-size: 22px;
+}
+p{
+  font-size: 22px;
+}
+li{
+  font-size: 24px;
+  font-weight: bold;
+}
+table{
+  border-collapse: collapse;
+  border: 1px solid #000;
+  }
+
+th{
+  text-align: center;
+  background-color: #ff7b00;
+}
+td{
+  width: 15em;
+  text-align: center;
+}
