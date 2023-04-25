@@ -1,0 +1,15 @@
+.css1{
+  background-color: #ff0;
+  margin: 20px;
+  padding: 20px;
+}
+.css2{
+  background-color: #0ff;
+  margin: 40px;
+  padding: 20px;
+}
+.text{
+  font-size: 18px;
+  color: #f00;
+  text-decoration: underline;
+}

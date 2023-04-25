@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>margin相殺</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h2>このように縦に連続して表示されると2つの距離が60pxではなく40pxになる</h2>
+  <p class="text">連続する要素が上下に表示される場合、数値の大きいほうのマージンが優先されるこれがマージンの相殺です。</p>
+  <p class="css1">box1<br>
+    margin:20px;  padding:20px;
+  </p>
+  <p class="css2">box2<br>
+  margin:40px; padding:20px;</p>
+</body>
+</html>
