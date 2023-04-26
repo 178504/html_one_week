@@ -1,0 +1,43 @@
+.css1{
+  background-color: #fff;
+  border: 1px solid #f00;
+  width: 200px;
+  height: 250px;
+  float: left;
+  font-weight: bold;
+}
+.css2{
+  background-color: #808080;
+  border: 1px dashed #00f;
+  width: 200px;
+  height: 250px;
+  float: left;
+  font-weight: bold;
+}
+.css3{
+  background-color: #000;
+  color: #fff;
+  width: 400px;
+  height: 150px;
+  font-weight: bold;
+  border: dotted 1px #fff;
+}
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+table{
+  border-collapse: collapse;
+  border: 1px solid #000;
+  margin: 10px;
+}
+th{
+  font-weight: bold;
+  background-color: #00f;
+  text-align: center;
+}
+td{
+  font-weight: bold;
+  text-align: center;
+}

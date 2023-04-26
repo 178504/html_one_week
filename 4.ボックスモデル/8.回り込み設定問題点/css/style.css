@@ -1,0 +1,18 @@
+.css1,.css2,.css3{
+  width: 100px;
+  height: 150px;
+  border: 5px solid #f00;
+  font-weight: bold;
+}
+.css1{
+  background-color: #fff;
+  float: left;
+}
+.css2{
+  background-color: #808080;
+  float: left;
+}
+.css3{
+  background-color: #000;
+  color: #fff;
+}
