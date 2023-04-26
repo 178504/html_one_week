@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>疑似クラス</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <ul>
+    <li>疑似クラス</li>
+    <p>clearクラスはclear::afterのように、クラス名の後に:afterという文字列がついています。
+      このように、<span>クラス名の後に：〇〇として付加する部分のことを疑似クラスという。
+    </span>なお、主要な疑似クラスには次のようなものがあります。</p>
+  <table border="1">
+    <tr><th>疑似クラス</th><th>概要</th></tr>
+    <tr><td>:after</td><td>要素の直後にコンテンツ追加</td></tr>
+    <tr><td>:link</td><td>未訪問のリンク要素指定</td></tr>
+    <tr><td>:visited</td><td>訪問済みのリンク要素を指定</td></tr>
+    <tr><td>:hover</td><td>要素にマウスポインタがホバーした際の指定</td></tr>
+    <tr><td>:active</td><td>要素がアクティブ状態になった際の指定</td></tr>
+  </table>
+  <br>
+  <hr>
+  <br>
+    <li>contentプロパティ</li>
+    <p>contentプロパティは要素の前後にテキストや画像等のコンテンツを挿入する際に使います。<br>
+      <span>ここではclearfix::afterとしていることから、このクラスを指定した要素の後に挿入します</span>が<br>
+      指定している文字列""は空文字といい、何もない文字列を意味するため、改行の後何も挿入しないということを意味します。<br>
+      contentプロパティの指定<br>
+      content:"";</p>
+      <br>
+      <hr>
+      <br>
+    <li>displayプロパティ</li>
+    <p>displayプロパティは<span>ブロックレベル要素とインライン要素</span>が指定できます。<br>
+    display: block;<br>
+    display: inline;<br>
+    ブロックレベル要素は、見出し・段落・表など文章を構成する基本となる要素で1つのブロックとして認識されます。<br>
+    インライン要素は主にブロックレベル要素の内容として使われる要素で、文章の一部として扱われます。<br>
+    p要素の中のstrong要素のように段落の中の一部ととして使われる要素です。<br>
+    <strong>ブロックレベルの要素の中には他のブロックレベル要素やインライン要素を配置することができます。<br>
+    インライン要素の中にはブロックレベル要素を配置することはできません。</strong></p>
+    <br>
+    <hr>
+    <br>
+</ul>
+</body>
+</html>

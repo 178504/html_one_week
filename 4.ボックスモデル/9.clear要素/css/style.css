@@ -1,0 +1,12 @@
+li{
+  font-size: 24px;
+  text-decoration: underline;
+}
+span{
+  color: #f00;
+  text-decoration: underline #f00;
+  font-size: 22px;
+}
+p{
+  font-size: 22px;
+}
