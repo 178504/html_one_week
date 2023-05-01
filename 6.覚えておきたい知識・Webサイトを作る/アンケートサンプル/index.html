@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>アンケートサンプル</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>アンケート</h1>
+  <p><b>お名前</b></p>
+  <input type="text" name="name" placeholder="(例)山田太郎">
+  <p><b>年齢</b></p>
+  <input type="text" name="age" placeholder="(例) 25">
+  <p><b>性別</b></p>
+  <input type="radio" name="sex" value="男" checked="checked">男
+  <input type="radio" name="sex" value="女">女
+  <p><b>血液型</b></p>
+  <!--selectタグ・・・複数の選択肢から１つ選べる-->
+  <select><option value="A">A型</option>
+    <option value="B">B型</option>
+    <option value="O">O型</option>
+    <option value="AB">AB型</option>
+    <option value="__" selected>不明</option>
+  </select>
+  <p><b>好きな果物</b></p>
+  <input type="checkbox" name="fruit">いちご
+  <input type="checkbox" name="fruit">もも
+  <input type="checkbox" name="fruit">ぶどう
+  <input type="checkbox" name="fruit">りんご
+  <p><b>ご質問の内容</b></p>
+  <textarea name="kanso" rows="5" cols="40"></textarea>
+  <button type="submit" value="送信">送信</button>
+  <button type="reset" value="リセット">リセット</button>
+</body>
+</html>
