@@ -1,0 +1,13 @@
+/* パソコン用(ウィンドウ幅が800px以上) */
+@media screen and (min-width:800px) {
+  .css1{
+    display: none;
+  }
+}
+
+/* スマートフォン用（ウィンドウ幅が799pxまで） */
+@media screen and (max-width:799px){
+  .css2{
+    display: none;
+  }
+}

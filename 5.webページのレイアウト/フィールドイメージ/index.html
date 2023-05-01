@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>フィールドイメージ</title>
+  <link rel="stylesheet" href="css/style_responsive.css">
+</head>
+<body>
+  <h1>フィールドイメージ</h1>
+  <p>フィールドイメージとは<span>レイアウトの幅に応じて、画像サイズを拡大・縮小させるテクニック</span>のことです。<br>
+  これにより、スタイルシートの設定だけでコンテンツの比率を維持したまま、画像サイズを表示環境にあわせることができます。</p>
+  <hr>
+  <h2>フィールドイメージが適用されていない画像</h2>
+  <h1>画像（フィールドイメージなし）</h1>
+  <img src="img/image.jpg">
+  <p>もともとの画像サイズのまま画像が表示されますが、Webブラウザの横幅を狭くしていくと、収まりきらない
+    部分が隠れてしまいます。</p><hr>
+    <h2>フィールドイメージのサンプル</h2>
+    <h1>画像（フィールドイメージあり）</h1>
+    <img style="max-width: 100%;" src="img/image.jpg">
+    <br>
+    <br>
+    <hr>
+  <h2>フィールドイメージの設定方法</h2>
+  <p>フィールドイメージを実装するには、imgタグに次の設定を行います。<br>
+    <span>img style="max-width: 100%;" src="img/image.jpg"</span></p>
+</body>
+</html>

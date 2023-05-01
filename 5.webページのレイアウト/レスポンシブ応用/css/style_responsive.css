@@ -1,0 +1,26 @@
+ul{
+  text-align:center;
+  padding: 0;
+  list-style:none;
+}
+/* パソコン用 */
+@media screen and (min-width: 767px) {
+  ul li {
+      border:1px solid black;
+      float:left;
+      width:100px;
+  }
+  /* clearfix */
+  .clearfix:after {
+      content: "";
+      display: block;
+      clear: both;
+  }
+}
+/* スマートフォン用 */
+@media screen and (max-width: 767px) {
+  ul li {
+      border:1px solid black;
+      width:100px;
+  }
+}
