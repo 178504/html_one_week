@@ -1,0 +1,136 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+  background-color: #fff;
+}
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.header{
+  text-align: center;
+  color: #fff;
+  background-color: #2737cf;
+}
+.header h1{
+  font-size: 2.3em;
+  padding: 0.4em 0 0.4em 0;
+  margin: 0 0 0.2em;
+  color: #fff;
+}
+.menu{
+  margin: 0;
+  background-color: #2737cf;
+  text-align: center;
+}
+/*パソコン用ウィンドウ幅が800pxより大きい*/
+@media screen and (min-width:800px){
+  .menu ul{
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    list-style: none;
+  }
+  .menu ul li{
+    float: left;
+    width: 159px;
+    color: #fff;
+    line-height: 3.0em;
+    text-align: center;
+    border-right: 1px solid #fff;
+    text-decoration: none;
+  }
+  .menu ul li:first-child{
+    width: 158px;
+    float:left;
+    color: #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    text-align: center;
+    text-decoration: none;
+    line-height: 3.0em;
+  }
+  /*パソコン用のトップページ*/
+  .pctoping{
+    max-width: 100%;
+  }
+}
+/*スマートフォン用ウィンドウ幅が799pxまで*/
+@media screen and (max-width:799px) {
+  .menu ul{
+    padding: 0;
+    list-style: none;
+  }
+  .menu ul li{
+    text-align: center;
+    color: #fff;
+    width: auto;
+    border-bottom: 1px solid #fff;
+    list-style: none;
+    line-height: 3.0em;
+  }
+  .menu ul li:first-child{
+    width: auto;
+    line-height: 3.0em;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-top: 1px solid #fff;
+  }
+/*パソコン用のトップページ(非表示)*/
+.pctoping{
+  display: none;
+}
+}
+.menu ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+.menu ul li a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+.menu ul li:hover{
+  background-color: #19258a;
+}
+/*コンテンツ*/
+@media screen and (min-width:800px) {
+  .contents{
+    width: 800px;
+    margin: 1em auto 1em;
+  }
+}
+@media screen and (max-width:800px) {
+  .contents{
+    width: 100%;
+    margin: 1em auto 1em;
+  }
+}
+.contents h1{
+  font-weight: bold;
+}
+.contents h2{
+  font-weight: bold;
+  text-align:center;
+}
+aside section{
+  height: 130px;
+  color: #fff;
+  background-color: #2737cf;
+  padding: 15px 0 0 20px;
+}
+section{
+  margin: 0 0 1em 0;
+  border: #19258a;
+}
+article section{
+  border-bottom: 1px solid #ccc;
+}
+.footer{
+  width: 100%;
+  text-align: center;
+}
