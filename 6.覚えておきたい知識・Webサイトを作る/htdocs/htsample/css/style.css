@@ -137,3 +137,66 @@ article section{
 .grt{
   margin: 1em 0.5em 1em;
 }
+.tbl caption{
+  font-weight: bold;
+  padding: 10px 5px;
+  background-color: #333;
+  color: #fff;
+}
+.tbl{
+  border-top: 1px solid #ccc;
+  table-layout: fixed;
+  width: 100%;
+  margin: 0 auto 30px;
+}
+.tbl tr{
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+.tbl th, .tbl td{
+  padding: 10px 5px;
+  word-break: break-all;
+}
+.tbl th{
+  text-align: center;
+  width: 30%;
+  background-color: #f7f7f7;
+}
+.svc{
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.svc p{
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.button_wrapper{
+  text-align:center;
+}
+.confirm,.confirm:visited{
+  background-color: #2737cf;
+  color: #fff;
+  border: 1px solid #fff;
+  text-decoration: none;
+  padding: 1em 1em;
+}
+.confirm:hover{
+  background-color: #19258a;
+}
+@media screen and (min-width:800px) {
+  .confirm{
+    width: 10em;
+  }
+}
+@media screen and (max-width:799px) {
+  .confirm{
+    width: 95%;
+  }
+}
+.ws{
+  width: 95%;
+  display: block;
+}
+.wl{
+  width: 95%;
+  display: block;
+}
